@@ -1,0 +1,546 @@
+.slider {
+  width: 100%;
+  height: 400px;
+  background-color: grey;
+  background-image: url(pharm2019-11-282408715.jpg);
+}
+.intro {
+  color: white;
+  height: 100px;
+  width: 600px;
+  text-align: center;
+  margin: auto;
+  padding-top: 10%;
+}
+.intro h1 {
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  margin: 0;
+  font-weight: bold;
+  font-family: Arial, Tohama;
+  text-transform: uppercase;
+  font-size: 250%;
+}
+.intro button {
+  margin: 30px 0 0 0;
+  width: 120px;
+  height: 50px;
+  background: none;
+  border: 2px solid white;
+  color: white;
+  font-weight: bold;
+  font-family: Arial, Tohama;
+}
+.intro button a {
+  color: white;
+  text-decoration: none;
+}
+
+.navebar {
+  width: 100%;
+  height: 50px;
+  overflow: hidden;
+  font-family: Arial, Tohama;
+  background-color: #252f31;
+}
+.navebar .container {
+  text-align: center;
+  margin-top: 20px;
+}
+.navebar .container h3 {
+  display: inline;
+  text-transform: uppercase;
+  color: white;
+  margin-left: 85px;
+}
+.navebar .container h3 span {
+  color: #2bde7c;
+}
+.navebar .container ul {
+  margin: auto 120px;
+  float: right;
+}
+.navebar .container ul li {
+  list-style: none;
+  display: inline-block;
+  color: white;
+  padding: 0;
+  text-align: center;
+  margin-right: 10px;
+}
+.navebar .container ul li a {
+  text-decoration: none;
+  color: white;
+}
+.navebar .container ul li.active a,
+.navebar .container ul li a:hover {
+  color: #26945a;
+}
+
+.features {
+  overflow: hidden;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  width: 800px;
+  margin: auto;
+}
+.features .value {
+  width: 33.33333%;
+  height: 150px;
+  display: inline-block;
+  margin-bottom: 10px;
+  float: left;
+}
+.features .value h2 {
+  color: #626c6e;
+  font-family: Arial, Tohama;
+}
+.features .value p {
+  color: #6d6a6a;
+  font-family: Arial, Tohama;
+}
+
+.about {
+  width: 100%;
+  height: 500px;
+  background-color: #efefef;
+}
+.about .container {
+  height: 500px;
+  width: 1050px;
+}
+
+.about .container .image img {
+  height: 500px;
+  width: 350px;
+  display: inline-block;
+  float: left;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+.about .container .speach {
+  float: left;
+  width: 400px;
+  margin-left: 50px;
+}
+.about .container .speach > h2 {
+  color: #626c6e;
+  font-family: Arial, Tohama;
+}
+.about .container .speach > p {
+  color: #969696;
+  font-family: Arial, Tohama;
+}
+.about .container .exp {
+  width: 300px;
+  height: 100px;
+  margin-left: 50px;
+  display: inline-block;
+  float: left;
+}
+.about .container .exp > h3 {
+  color: #626c6e;
+  width: 200px;
+  font-family: Arial, Tohama;
+}
+.about .container .exp > p {
+  color: #969696;
+  font-family: Arial, Tohama;
+}
+.about .container .exp img {
+  display: inline;
+  float: left;
+  margin-right: 5px;
+  width: 30px;
+  height: 30px;
+  padding-top: 10px;
+}
+.skill {
+  width: 100%;
+}
+.skill .container .info {
+  float: left;
+  width: 400px;
+  height: 400px;
+  margin-left: 50px;
+  display: inline-block;
+  margin-left: 120px;
+  margin-top: 30px;
+}
+.skill .container .info > h2 {
+  font-family: Arial, Tohama;
+  color: #555f60;
+}
+.skill .container .info > p {
+  color: #c3c3c3;
+  font-family: Arial, Tohama;
+  line-height: 1.7;
+  font-size: 70%;
+  font-weight: bold;
+}
+.skill .container .info button {
+  border: 2px solid #71d29b;
+  background: none;
+  width: 120px;
+  height: 40px;
+}
+.skill .container .info button a {
+  text-decoration: none;
+  color: #71d29b;
+  font-weight: bold;
+  font-family: Arial, Tohama;
+}
+.skill .container .experience {
+  float: right;
+  width: 400px;
+  margin-right: 50px;
+  margin-top: 20px;
+  height: 50px;
+}
+.skill .container .experience .technique h3 {
+  font-family: Arial, Tohama;
+  color: #818b8c;
+}
+.skill .container .experience .technique span {
+  background-color: #2dcc70;
+  color: white;
+}
+.skill .container .technique div {
+  width: 300px;
+  height: 20px;
+  background-color: #f2f2f2;
+}
+.skill .container .technique div span {
+  background-color: #2dcc70;
+  height: 20px;
+  display: block;
+  line-height: 20px;
+  text-align: right;
+  color: #fff;
+  font-weight: bold;
+}
+.resume {
+  float: left;
+  background-color: #f2f2f2;
+  width: 100%;
+  height: 250px;
+  line-height: 1.7;
+  margin: 0;
+  padding: 0;
+}
+.resume .container > h3 {
+  text-align: center;
+  padding: 0;
+  margin: 50px auto 0 0;
+  font-weight: bold;
+  font-family: Arial, Tohama;
+  color: #666e72;
+  text-transform: uppercase;
+}
+.resume .container > p {
+  text-align: center;
+  width: 70%;
+  margin: 15px auto;
+  color: #b2b2b2;
+  font-family: Arial, Tohama;
+}
+
+.resume .container button {
+  border: 2px solid #71d29b;
+  background: none;
+  width: 180px;
+  height: 40px;
+  margin-left: 41%;
+}
+.resume .container button a {
+  text-decoration: none;
+  color: #71d29b;
+  font-weight: bold;
+  font-family: Arial, Tohama;
+}
+.education {
+  width: 100%;
+  height: 400px;
+  float: left;
+}
+.education .container {
+  margin-top: 60px;
+  height: 300px;
+  width: 900px;
+  margin-left: 120px;
+}
+.education .container .edu {
+  width: 50%;
+  display: inline-block;
+}
+.education .container .edu > h3 {
+  color: #515757;
+  font-weight: bold;
+  font-family: Arial, Tohama;
+  text-transform: uppercase;
+}
+.education .container .edu > p {
+  width: 100%;
+  float: left;
+  font-family: Arial, Tohama;
+  color: #a29e9e;
+  font-size: 90%;
+  line-height: 1.7;
+}
+.education .container .info {
+  float: right;
+  width: 40%;
+  height: 800px;
+  margin-top: 80px;
+  padding: 0;
+}
+.education .container .info > h3 {
+  font-family: Arial, Tohama;
+  color: #6c7174;
+  text-transform: uppercase;
+  font-size: 100%;
+}
+.education .container .info p,
+.education .container .info strong {
+  color: #9e9e9e;
+  font-family: Arial, Tohama;
+  display: inline;
+}
+.education .container .info span {
+  display: block;
+  color: white;
+  background-color: #35c875;
+  width: 80px;
+  height: 20px;
+  margin-top: 20px;
+  padding-top: 8px;
+  text-align: center;
+}
+.education .container hr {
+  margin: 20px 0;
+  background-color: #999;
+  height: 1px;
+  border: 0;
+}
+.education .container .info1 p,
+.education .container .info1 strong {
+  color: #9e9e9e;
+  font-family: Arial, Tohama;
+  display: inline;
+}
+.education .container .info1 span {
+  display: block;
+  color: white;
+  background-color: #35c875;
+  width: 80px;
+  height: 20px;
+  margin-top: 20px;
+  padding-top: 8px;
+  text-align: center;
+}
+.education .container .info1 > h3 {
+  font-family: Arial, Tohama;
+  color: #6c7174;
+  text-transform: uppercase;
+  font-size: 100%;
+}
+.education hr {
+  width: 80%;
+  margin: 350px auto;
+  background-color: #999;
+  height: 1px;
+  border: 0;
+}
+.work {
+  width: 100%;
+  height: 800px;
+}
+.work .container {
+  height: 1050px;
+  width: 80%;
+  margin: 400px 0 0 100px;
+}
+.work .container .parag {
+  width: 50%;
+  display: inline-block;
+}
+.work .container .parag h3 {
+  color: #6c7174;
+  font-family: Arial, Tohama;
+  font-weight: bold;
+}
+.work .container .parag p {
+  color: #9e9e9e;
+  font-family: Arial, Tohama;
+  display: inline-block;
+}
+
+.work .container .info {
+  float: right;
+  width: 45%;
+  height: 300px;
+  margin-top: 65px;
+  display: inline-block;
+}
+.work .container .info h3 {
+  font-family: Arial, Tohama;
+  color: #6c7174;
+  text-transform: uppercase;
+  font-size: 100%;
+}
+.work .container .info p,
+.work .container .info strong {
+  color: #9e9e9e;
+  font-family: Arial, Tohama;
+  display: inline;
+}
+.work .container .info p {
+  margin-bottom: 60px;
+}
+.work .container .info span {
+  display: block;
+  color: white;
+  background-color: #35c875;
+  width: 60px;
+  height: 20px;
+  margin-top: 20px;
+  padding-top: 3px;
+  text-align: center;
+}
+.work .container hr {
+  margin: 20px 0;
+  background-color: #999;
+  height: 1px;
+  border: 0;
+}
+.clearfix {
+  clear: both;
+}
+.test {
+  width: 100%;
+  height: 300px;
+  background-color: #f2f2f2;
+}
+.test .container {
+  margin: 30px auto;
+  line-height: 1.7;
+  width: 600px;
+  padding-top: 50px;
+  text-align: center;
+  font-family: Arial, Tohama;
+}
+.test .container q {
+  color: #9c9c9c;
+  margin: 30px;
+  font-weight: bold;
+  font-style: italic;
+}
+.test .container h4 {
+  color: #818689;
+  text-transform: uppercase;
+  text-align: center;
+}
+.test .container ul {
+  margin-right: 35px;
+}
+.test ul li {
+  width: 15px;
+  height: 15px;
+  border: 2px solid #2dcc70;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.test ul li.active,
+.test ul li:hover {
+  background-color: #2dcc70;
+}
+.port {
+  width: 100%;
+}
+.port .container {
+  margin: auto;
+  text-align: center;
+  width: 800px;
+}
+.port .container p,
+.port .container h2 {
+  color: #6e7174;
+  font-family: Arial, Tohama;
+}
+.port .pic .cont {
+  width: 700px;
+  height: 700px;
+  margin: auto 0 0 200px;
+}
+.port .pic img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.contact {
+  width: 100%;
+  height: 600px;
+  background-color: #252f31;
+}
+.contact .container {
+  margin-left: 120px;
+  margin-top: 50px;
+  padding-top: 50px;
+  display: inline-block;
+}
+.contact .container h2 {
+  font-family: Arial, Tohama;
+  color: #e1e2e4;
+}
+.contact .container p {
+  font-family: Arial, Tohama;
+  color: #464e4f;
+  width: 400px;
+}
+form {
+  margin-top: 120px;
+  float: right;
+  height: 300px;
+  margin-right: 100px;
+}
+.contact form input {
+  display: block;
+  margin-bottom: 15px;
+}
+.contact form label {
+  color: #c3c8cb;
+  font-family: Arial, Tohama;
+  font-weight: bold;
+  font-size: 80%;
+}
+.contact form input[type="submit"] {
+  background-color: #191e22;
+  color: wheat;
+  border: none;
+  width: 100px;
+  height: 30px;
+  font-family: Arial, Tohama;
+  cursor: pointer;
+}
+.foot {
+  width: 100%;
+  height: 80px;
+  background-color: #191e22;
+}
+.foot .container {
+  text-align: center;
+  font-size: 60%;
+  font-family: Arial, Tohama;
+  color: #3a3f43;
+  padding: 20px;
+}
+.foot .image {
+  margin-left: 500px;
+}
+.foot .image img {
+  width: 20px;
+  height: 20px;
+  display: inline;
+}
